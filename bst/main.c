@@ -7,7 +7,7 @@ void main() {
 
     for (i = 0; i < 20; i++) {
         root = insert(root, array[i]);
-        //printf("Inserted %d\n", array[i]);
+        printf("Inserted %d\n", array[i]);
     }
 
     search(root, 92);
