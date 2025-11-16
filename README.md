@@ -67,21 +67,24 @@ Por fim, execute o binário gerado:
   <tr>
     <td align="center" valign="top">
       <a href="https://github.com/andreasgunther">
-        <img src="https://avatars.githubusercontent.com/u/113151524?v=4" width="100px;" alt="Foto do Contribuidor 1" style="border-radius:50%"/>
+        <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/113151524?v=4&w=100&h=100&fit=cover&mask=circle" 
+             width="100px;" alt="Foto do Contribuidor 1"/>
         <br />
         <sub><b>Andreas Gunther</b></sub>
       </a>
     </td>
     <td align="center" valign="top">
       <a href="https://github.com/davicarvalh0">
-        <img src="https://avatars.githubusercontent.com/u/168906459?v=4" width="100px;" alt="Foto do Contribuidor 2" style="border-radius:50%"/>
+        <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/168906459?v=4&w=100&h=100&fit=cover&mask=circle" 
+             width="100px;" alt="Foto do Contribuidor 2"/>
         <br />
         <sub><b>Davi Carvalho</b></sub>
       </a>
     </td>
     <td align="center" valign="top">
       <a href="https://github.com/Marcosmh7xb">
-        <img src="https://avatars.githubusercontent.com/u/130499268?v=4" width="100px;" alt="Foto do Contribuidor 3" style="border-radius:50%"/>
+        <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/130499268?v=4&w=100&h=100&fit=cover&mask=circle" 
+             width="100px;" alt="Foto do Contribuidor 3"/>
         <br />
         <sub><b>Marcos Henrique</b></sub>
       </a>
