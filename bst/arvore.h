@@ -4,6 +4,8 @@
 
 typedef struct Node {
     int data;
+    int column;
+    int row;
     struct Node *left;
     struct Node *right;
 } Node;

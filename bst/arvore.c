@@ -35,14 +35,14 @@ Node* insert(Node *root, int data){
     }
 
 }
-
+/*
 void inorder_transversal(Node *root) {
     if (root) {
         inorder_transversal(root->left);
         printf("%d ", root->data);
         inorder_transversal(root->right);
     }
-}
+}*/
 
 void search(Node *root, int data) {
     Node *current = root;
@@ -59,4 +59,15 @@ void search(Node *root, int data) {
     }
 
     printf("%d not found.", data);
+}
+
+void inorder_transversal(Node *root, int *column, int *row) {
+    if (root == NULL) {
+
+    }
+    if (root) {
+        inorder_transversal(root->left, column--, row++);
+        printf("%d ", root->data);
+        inorder_transversal(root->right, column++, );
+    }
 }
