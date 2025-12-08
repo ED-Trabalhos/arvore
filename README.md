@@ -8,11 +8,9 @@
 ![Licença](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![Último Commit](https://img.shields.io/github/last-commit/ED-Trabalhos/arvore?style=flat-square)
 
-Este repositório é dedicado ao estudo de seis tipos fundamentais da estrutura de dados "Árvore". Foram implementados dois tipos de árvore. Cada tipo de árvore está contido em sua própria pasta, demonstrando suas operações principais, características e casos de uso.
+Este repositório é dedicado ao estudo dos tipos fundamentais da estrutura de dados "Árvore". Foram implementados dois tipos de árvore. Cada tipo de árvore está contido em sua própria pasta, demonstrando suas operações principais, características e casos de uso.
 
-## 🌲 Estruturas Implementadas
-
-O projeto está organizado nas seguintes pastas, cada uma contendo a implementação de um tipo de árvore específico:
+## 🌲 Estruturas Estudadas
 
 1.  **[Árvore Binária de Busca (BST)](./bst/)** (`./bst/`)
     * Uma árvore binária onde o nó esquerdo contém uma chave menor que a do nó pai, e o nó direito contém uma chave maior. É eficiente para buscas, inserções e deleções em $O(\log n)$ em média.

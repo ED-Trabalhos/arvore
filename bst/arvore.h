@@ -1,6 +1,7 @@
 #pragma once
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 typedef struct Node {
     int data;
@@ -13,3 +14,4 @@ typedef struct Node {
 Node* insert(Node *root, int data);
 void inorder_transversal(Node *root);
 void search(Node *search, int data);
+int menu(int choice);

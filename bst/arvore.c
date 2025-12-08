@@ -1,7 +1,7 @@
 #include "arvore.h"
 
 Node* insert(Node *root, int data){
-    Node *temp = malloc(sizeof(Node*));
+    Node *temp = (Node*)malloc(sizeof(Node));
 
     temp->data = data;
     temp->left = NULL;
@@ -35,14 +35,14 @@ Node* insert(Node *root, int data){
     }
 
 }
-/*
+
 void inorder_transversal(Node *root) {
     if (root) {
         inorder_transversal(root->left);
-        printf("%d ", root->data);
+        printf("|  %-6d |\n", root->data);
         inorder_transversal(root->right);
     }
-}*/
+}
 
 void search(Node *root, int data) {
     Node *current = root;
@@ -53,21 +53,24 @@ void search(Node *root, int data) {
         } else if (current->data < data) {
             current = current->right;
         } else {
-            printf("%d found.", data);
+            printf("Encontrado\n");
             return;
         }
     }
 
-    printf("%d not found.", data);
+    printf("Não encontrado\n");
 }
 
-void inorder_transversal(Node *root, int *column, int *row) {
-    if (root == NULL) {
-
-    }
-    if (root) {
-        inorder_transversal(root->left, column--, row++);
-        printf("%d ", root->data);
-        inorder_transversal(root->right, column++, );
-    }
+int menu(int choice) {
+    printf("+=========================+\n");
+    printf("| Árvore de Busca Binária |\n");
+    printf("+=========================+\n");
+    printf("[1] Inserir\n");
+    printf("[2] Procurar\n");
+    printf("[3] Imprimir\n");
+    printf("[0] Sair\n");
+    printf("+=========================+\n");
+    printf("Selecione: ");
+    scanf("%d", &choice);
+    return choice;
 }
