@@ -67,7 +67,7 @@ int menu(int choice) {
     printf("+=========================+\n");
     printf("[1] Inserir\n");
     printf("[2] Procurar\n");
-    printf("[3] Imprimir\n");
+    printf("[3] Imprimir (Travessia Em Ordem)\n");
     printf("[0] Sair\n");
     printf("+=========================+\n");
     printf("Selecione: ");
