@@ -40,6 +40,8 @@ Para começar, clone este repositório:
 git clone https://github.com/ED-Trabalhos/arvore
 ```
 
+**Árvore BST:**
+
 Navegue até a pasta da estrutura de dados de seu interesse:
 
 ```bash
@@ -57,6 +59,26 @@ Por fim, execute o binário gerado:
 
 ```bash
 ./arvore
+```
+
+**Árvore Heap:**
+
+Navegue até a pasta da estrutura de dados de seu interesse:
+
+```bash
+# Exemplo
+cd arvore/binary-heap
+```
+
+Compile os arquivos:
+```bash
+gcc heap-main.c heap.c -o heap
+```
+
+Por fim, execute o binário gerado:
+
+```bash
+./heap
 ```
 
 ## 👩‍💻 Contribuidores
