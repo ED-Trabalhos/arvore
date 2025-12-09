@@ -27,6 +27,12 @@ void main() {
             inorder_transversal(root);
             printf("+=========+\n");
             break;
+        case 4:
+            printf("+=========================+\n");
+            printf("Número: ");
+            scanf("%d", &data);
+            root = delete(root, data);
+            break;
         default:
             exit = true;
             break;

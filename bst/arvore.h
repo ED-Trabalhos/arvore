@@ -14,4 +14,6 @@ typedef struct Node {
 Node* insert(Node *root, int data);
 void inorder_transversal(Node *root);
 void search(Node *search, int data);
+Node* find_min(Node* node);
+Node* delete(Node *root, int data);
 int menu(int choice);
