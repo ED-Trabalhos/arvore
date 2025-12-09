@@ -4,8 +4,8 @@
 ![Linguagem](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Contribuidores](https://img.shields.io/badge/Contributors-3-purple?style=flat-square)
 ![Tipo](https://img.shields.io/badge/Projeto-Acadêmico-blueviolet?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)
-![Licença](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Concluído-green?style=flat-square)
+![Licença](https://img.shields.io/badge/License-MIT-orange?style=flat-square)
 ![Último Commit](https://img.shields.io/github/last-commit/ED-Trabalhos/arvore?style=flat-square)
 
 Este repositório é dedicado ao estudo dos tipos fundamentais da estrutura de dados "Árvore". Foram implementados dois tipos de árvore. Cada tipo de árvore está contido em sua própria pasta, demonstrando suas operações principais, características e casos de uso.
